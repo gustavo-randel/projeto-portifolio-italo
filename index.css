@@ -76,16 +76,15 @@ article > img{
     padding: 1rem;
 }
 
-article.projects {
-    grid-row: 4/ 9;
+a > img {
+    cursor: pointer;
+    max-width: 100%;
+    min-width: 100%;
+    padding: 1rem;
 }
 
-iframe{
-    padding: 1rem;
-    max-width: 100%;
-    height: 100%;
-    max-height: 100%;
-    border-radius: .5rem;
+article.projects {
+    grid-row: 4/ 9;
 }
 
 footer{
@@ -98,7 +97,6 @@ footer{
 /*class configs*/
 
 .page-container{
-    height: 100vh;
     max-width: 100vw;
     display: grid;
     grid-template-columns:  1fr 3fr 1fr;
@@ -117,12 +115,14 @@ footer{
     font-weight: 700;
     padding: .5rem;
     grid-column: 1 / 3;
+    padding-left: 1rem;
     }
     .projects p {
         grid-column: 2 / 3;
         padding: 0 1rem;
+        font-size: larger;
     }
-    .projects img, .projects iframe{
+    .projects img{
         grid-column: 1 / 2;
     }
 
