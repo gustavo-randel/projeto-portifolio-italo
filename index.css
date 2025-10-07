@@ -25,10 +25,10 @@ header{
     grid-column: 2 / 3;
     position: sticky;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.336);
-    height: 100%;
     padding-top: .5rem;
+    background-color: rgba(0, 0, 0, 0.712);
     border-bottom: 1px solid rgba(0, 0, 0, 0.329);
+    backdrop-filter: blur(20px);
 }
 
 nav#main-nav{
