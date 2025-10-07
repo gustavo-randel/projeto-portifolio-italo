@@ -28,13 +28,13 @@ header{
     padding-top: .5rem;
     background-color: rgba(0, 0, 0, 0.712);
     border-bottom: 1px solid rgba(0, 0, 0, 0.329);
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(2px);
 }
 
 nav#main-nav{
     font-family: var(--font-secondary);
     width: 100%;
-    padding: .5rem;
+    padding: .5rem 1rem;
     font-weight: 600;
     font-size: 1.5rem;
 }
@@ -48,15 +48,16 @@ nav#main-nav{
     }
         nav#main-nav ul li{
         cursor: pointer;
-        color: white;
+        color: rgb(185, 185, 185);
     }
         nav#main-nav ul li:first-child{
         margin-right: auto;
         text-align: left;
+        color: white;
         }
         nav#main-nav a{
         text-decoration: none;
-        color: rgb(255, 255, 255);
+        color: rgb(255, 255, 255);  
         }
         nav#main-nav a:hover{
         color: purple;
@@ -65,13 +66,10 @@ nav#main-nav{
 main {
     grid-row: auto;
     grid-column: 2 / 3;
-    background-color: rgba(0, 0, 0, 0.171);
-   
+    background-color: rgba(0, 0, 0, 0.253);
 }
 
 article > img{
-    max-width: 80%;
-    min-width: 80%;
     border-radius: .5rem;
     display: flex;
     align-items: center;
@@ -129,9 +127,7 @@ footer{
     }
     .projects img, .projects a > img{
         grid-column: 1 / 2;
-        width: 100%;
-        max-width: 400px;
-        min-width: 200px;
+        width: 80%;
         height: auto;
         object-fit: contain;
         display: block;
@@ -145,7 +141,7 @@ footer{
     grid-row: 2;
     grid-column: 2 / 3;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.253);
+    background-color: rgba(0, 0, 0, 0.435);
     padding: 10rem 1.5rem;
     font-weight: 700;
     font-size: 1.2rem;
