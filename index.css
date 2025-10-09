@@ -315,6 +315,10 @@ footer{
         font-size: .8rem;
     }
 
+    .bottom-footer p, .bottom-footer a{
+        font-size: smaller;
+    }
+
     .mobile{
         display: block;
     }
